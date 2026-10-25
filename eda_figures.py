@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from IPython.display import display
 from pathlib import Path
+import json 
 
 df = pd.read_csv("data/academic_survival_longitudinal.csv")
 

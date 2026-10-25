@@ -1,0 +1,564 @@
+{
+  "n_rows": 79239,
+  "n_students": 20000,
+  "row_dropout_rate": 0.08729287345877661,
+  "censored_records": 11115,
+  "exact_duplicates_removed": 0,
+  "duplicate_student_semester_keys": 0,
+  "attendance_below_zero": 85,
+  "attendance_above_100": 164,
+  "student_outcomes": {
+    "Still enrolled at last observation": 11115,
+    "Dropped out": 6917,
+    "Graduated": 1968
+  },
+  "student_outcomes_pct": {
+    "Still enrolled at last observation": 55.574999999999996,
+    "Dropped out": 34.585,
+    "Graduated": 9.84
+  },
+  "dropout_by_semester": {
+    "1": 0.0666,
+    "2": 0.08875632682574114,
+    "3": 0.09742271937117376,
+    "4": 0.09278249829084871,
+    "5": 0.10006489292667099,
+    "6": 0.09416636658264314,
+    "7": 0.10021378941742384,
+    "8": 0.09392265193370165
+  },
+  "rows_by_semester": {
+    "1": 20000,
+    "2": 16596,
+    "3": 13231,
+    "4": 10239,
+    "5": 7705,
+    "6": 5554,
+    "7": 3742,
+    "8": 2172
+  },
+  "fig2": {
+    "income": [
+      {
+        "group": "Q1\n(lowest)",
+        "rate": 0.1284,
+        "lo": 0.1236,
+        "hi": 0.1327,
+        "n_rows": 20076
+      },
+      {
+        "group": "Q2",
+        "rate": 0.102,
+        "lo": 0.0976,
+        "hi": 0.1066,
+        "n_rows": 18166
+      },
+      {
+        "group": "Q3",
+        "rate": 0.0608,
+        "lo": 0.0575,
+        "hi": 0.0642,
+        "n_rows": 18813
+      },
+      {
+        "group": "Q4\n(highest)",
+        "rate": 0.051,
+        "lo": 0.0482,
+        "hi": 0.0538,
+        "n_rows": 18580
+      }
+    ],
+    "firstgen": [
+      {
+        "group": "No",
+        "rate": 0.0723,
+        "lo": 0.0704,
+        "hi": 0.0745,
+        "n_rows": 53257
+      },
+      {
+        "group": "Yes",
+        "rate": 0.118,
+        "lo": 0.1145,
+        "hi": 0.1224,
+        "n_rows": 25982
+      }
+    ],
+    "scholarship": [
+      {
+        "group": "No",
+        "rate": 0.0968,
+        "lo": 0.0945,
+        "hi": 0.0992,
+        "n_rows": 57249
+      },
+      {
+        "group": "Yes",
+        "rate": 0.0624,
+        "lo": 0.0593,
+        "hi": 0.0659,
+        "n_rows": 21990
+      }
+    ],
+    "stress": [
+      {
+        "group": "Low\n(≤2.1)",
+        "rate": 0.0473,
+        "lo": 0.0454,
+        "hi": 0.0492,
+        "n_rows": 40841
+      },
+      {
+        "group": "Mid\n(2.1–3.4)",
+        "rate": 0.0862,
+        "lo": 0.0825,
+        "hi": 0.0904,
+        "n_rows": 19120
+      },
+      {
+        "group": "High\n(>3.4)",
+        "rate": 0.1731,
+        "lo": 0.1679,
+        "hi": 0.1778,
+        "n_rows": 19278
+      }
+    ]
+  },
+  "extra_groups": {
+    "Gender": [
+      {
+        "group": "Female",
+        "rate": 0.0876,
+        "lo": 0.0848,
+        "hi": 0.0903,
+        "n_rows": 39626
+      },
+      {
+        "group": "Male",
+        "rate": 0.0869,
+        "lo": 0.0843,
+        "hi": 0.0899,
+        "n_rows": 38059
+      },
+      {
+        "group": "Other",
+        "rate": 0.0862,
+        "lo": 0.0696,
+        "hi": 0.1041,
+        "n_rows": 1125
+      },
+      {
+        "group": "Prefer not to say",
+        "rate": 0.0979,
+        "lo": 0.0745,
+        "hi": 0.127,
+        "n_rows": 429
+      }
+    ],
+    "Housing_Status": [
+      {
+        "group": "Off-Campus",
+        "rate": 0.0934,
+        "lo": 0.0893,
+        "hi": 0.0974,
+        "n_rows": 23157
+      },
+      {
+        "group": "On-Campus",
+        "rate": 0.0919,
+        "lo": 0.0885,
+        "hi": 0.0948,
+        "n_rows": 31315
+      },
+      {
+        "group": "With Parents",
+        "rate": 0.0758,
+        "lo": 0.0727,
+        "hi": 0.0791,
+        "n_rows": 24767
+      }
+    ],
+    "Age group": [
+      {
+        "group": "17–18",
+        "rate": 0.0875,
+        "lo": 0.0846,
+        "hi": 0.0904,
+        "n_rows": 30824
+      },
+      {
+        "group": "19–20",
+        "rate": 0.0878,
+        "lo": 0.0847,
+        "hi": 0.0913,
+        "n_rows": 28262
+      },
+      {
+        "group": "21–23",
+        "rate": 0.0864,
+        "lo": 0.0824,
+        "hi": 0.0909,
+        "n_rows": 15776
+      },
+      {
+        "group": "24+",
+        "rate": 0.0859,
+        "lo": 0.0778,
+        "hi": 0.094,
+        "n_rows": 4377
+      }
+    ],
+    "Work hours group": [
+      {
+        "group": "0–10",
+        "rate": 0.0506,
+        "lo": 0.0478,
+        "hi": 0.0535,
+        "n_rows": 23800
+      },
+      {
+        "group": ">10–20",
+        "rate": 0.0676,
+        "lo": 0.0646,
+        "hi": 0.0708,
+        "n_rows": 24654
+      },
+      {
+        "group": ">20–30",
+        "rate": 0.1239,
+        "lo": 0.1193,
+        "hi": 0.1278,
+        "n_rows": 20323
+      },
+      {
+        "group": ">30–40",
+        "rate": 0.1461,
+        "lo": 0.1393,
+        "hi": 0.1524,
+        "n_rows": 10462
+      }
+    ],
+    "Household group": [
+      {
+        "group": "1–2",
+        "rate": 0.0676,
+        "lo": 0.0647,
+        "hi": 0.0706,
+        "n_rows": 25101
+      },
+      {
+        "group": "3–4",
+        "rate": 0.0903,
+        "lo": 0.0873,
+        "hi": 0.0935,
+        "n_rows": 39116
+      },
+      {
+        "group": "5–6",
+        "rate": 0.1124,
+        "lo": 0.1076,
+        "hi": 0.1177,
+        "n_rows": 15022
+      }
+    ],
+    "Tuition_Base": [
+      {
+        "group": 15000,
+        "rate": 0.0761,
+        "lo": 0.0732,
+        "hi": 0.079,
+        "n_rows": 31980
+      },
+      {
+        "group": 25000,
+        "rate": 0.0876,
+        "lo": 0.0849,
+        "hi": 0.0908,
+        "n_rows": 32160
+      },
+      {
+        "group": 45000,
+        "rate": 0.1102,
+        "lo": 0.1053,
+        "hi": 0.1153,
+        "n_rows": 15099
+      }
+    ]
+  },
+  "fig3": {
+    "gpa": [
+      {
+        "group": "<2.0",
+        "rate": 0.3592,
+        "lo": 0.3448,
+        "hi": 0.3745,
+        "n_rows": 4179
+      },
+      {
+        "group": "2.0–<2.5",
+        "rate": 0.1366,
+        "lo": 0.1319,
+        "hi": 0.1415,
+        "n_rows": 19045
+      },
+      {
+        "group": "2.5–<3.0",
+        "rate": 0.0613,
+        "lo": 0.0585,
+        "hi": 0.0635,
+        "n_rows": 38389
+      },
+      {
+        "group": "3.0–<3.5",
+        "rate": 0.0283,
+        "lo": 0.0257,
+        "hi": 0.0311,
+        "n_rows": 15381
+      },
+      {
+        "group": "≥3.5",
+        "rate": 0.0111,
+        "lo": 0.0068,
+        "hi": 0.0152,
+        "n_rows": 2245
+      }
+    ],
+    "failed": [
+      {
+        "group": "0",
+        "rate": 0.0457,
+        "lo": 0.0437,
+        "hi": 0.0476,
+        "n_rows": 40551
+      },
+      {
+        "group": "1",
+        "rate": 0.0952,
+        "lo": 0.0915,
+        "hi": 0.0984,
+        "n_rows": 27876
+      },
+      {
+        "group": "2",
+        "rate": 0.193,
+        "lo": 0.1841,
+        "hi": 0.2013,
+        "n_rows": 8870
+      },
+      {
+        "group": "3",
+        "rate": 0.3378,
+        "lo": 0.316,
+        "hi": 0.3599,
+        "n_rows": 1699
+      },
+      {
+        "group": "4+",
+        "rate": 0.5144,
+        "lo": 0.4532,
+        "hi": 0.5743,
+        "n_rows": 243
+      }
+    ],
+    "att": [
+      {
+        "group": "<75",
+        "rate": 0.1562,
+        "lo": 0.1448,
+        "hi": 0.1697,
+        "n_rows": 3143
+      },
+      {
+        "group": "75–<80",
+        "rate": 0.1266,
+        "lo": 0.1212,
+        "hi": 0.1327,
+        "n_rows": 11481
+      },
+      {
+        "group": "80–<85",
+        "rate": 0.0987,
+        "lo": 0.0952,
+        "hi": 0.1023,
+        "n_rows": 23733
+      },
+      {
+        "group": "85–<90",
+        "rate": 0.0728,
+        "lo": 0.0695,
+        "hi": 0.0758,
+        "n_rows": 24378
+      },
+      {
+        "group": "≥90",
+        "rate": 0.0518,
+        "lo": 0.0485,
+        "hi": 0.0551,
+        "n_rows": 16504
+      }
+    ]
+  },
+  "lms_quartiles": [
+    {
+      "group": "(11.999, 58.0]",
+      "rate": 0.1189,
+      "lo": 0.1142,
+      "hi": 0.123,
+      "n_rows": 20983
+    },
+    {
+      "group": "(58.0, 66.0]",
+      "rate": 0.0921,
+      "lo": 0.0878,
+      "hi": 0.0966,
+      "n_rows": 18528
+    },
+    {
+      "group": "(66.0, 75.0]",
+      "rate": 0.0761,
+      "lo": 0.0725,
+      "hi": 0.0797,
+      "n_rows": 20267
+    },
+    {
+      "group": "(75.0, 116.0]",
+      "rate": 0.0594,
+      "lo": 0.0564,
+      "hi": 0.063,
+      "n_rows": 18594
+    }
+  ],
+  "spearman_with_dropout": {
+    "Sem_GPA": -0.224,
+    "Attendance": -0.1,
+    "LMS_Logins": -0.083,
+    "Failed_Courses": 0.189,
+    "Advising_Visits": 0.067,
+    "Course_Load": 0.082,
+    "Work_Hours": 0.125,
+    "Financial_Stress": 0.183,
+    "Family_Income": -0.116
+  },
+  "spearman_matrix": {
+    "Sem_GPA": {
+      "Sem_GPA": 1.0,
+      "Attendance": 0.294,
+      "LMS_Logins": 0.31,
+      "Failed_Courses": -0.27,
+      "Advising_Visits": -0.312,
+      "Course_Load": -0.12,
+      "Work_Hours": -0.23,
+      "Financial_Stress": -0.295,
+      "Family_Income": 0.216,
+      "Dropout": -0.224
+    },
+    "Attendance": {
+      "Sem_GPA": 0.294,
+      "Attendance": 1.0,
+      "LMS_Logins": 0.097,
+      "Failed_Courses": -0.078,
+      "Advising_Visits": -0.085,
+      "Course_Load": 0.037,
+      "Work_Hours": -0.292,
+      "Financial_Stress": -0.107,
+      "Family_Income": 0.159,
+      "Dropout": -0.1
+    },
+    "LMS_Logins": {
+      "Sem_GPA": 0.31,
+      "Attendance": 0.097,
+      "LMS_Logins": 1.0,
+      "Failed_Courses": -0.093,
+      "Advising_Visits": -0.093,
+      "Course_Load": -0.044,
+      "Work_Hours": -0.081,
+      "Financial_Stress": -0.097,
+      "Family_Income": 0.073,
+      "Dropout": -0.083
+    },
+    "Failed_Courses": {
+      "Sem_GPA": -0.27,
+      "Attendance": -0.078,
+      "LMS_Logins": -0.093,
+      "Failed_Courses": 1.0,
+      "Advising_Visits": 0.084,
+      "Course_Load": 0.151,
+      "Work_Hours": 0.057,
+      "Financial_Stress": 0.074,
+      "Family_Income": -0.05,
+      "Dropout": 0.189
+    },
+    "Advising_Visits": {
+      "Sem_GPA": -0.312,
+      "Attendance": -0.085,
+      "LMS_Logins": -0.093,
+      "Failed_Courses": 0.084,
+      "Advising_Visits": 1.0,
+      "Course_Load": 0.041,
+      "Work_Hours": 0.099,
+      "Financial_Stress": 0.115,
+      "Family_Income": -0.092,
+      "Dropout": 0.067
+    },
+    "Course_Load": {
+      "Sem_GPA": -0.12,
+      "Attendance": 0.037,
+      "LMS_Logins": -0.044,
+      "Failed_Courses": 0.151,
+      "Advising_Visits": 0.041,
+      "Course_Load": 1.0,
+      "Work_Hours": -0.033,
+      "Financial_Stress": -0.017,
+      "Family_Income": 0.023,
+      "Dropout": 0.082
+    },
+    "Work_Hours": {
+      "Sem_GPA": -0.23,
+      "Attendance": -0.292,
+      "LMS_Logins": -0.081,
+      "Failed_Courses": 0.057,
+      "Advising_Visits": 0.099,
+      "Course_Load": -0.033,
+      "Work_Hours": 1.0,
+      "Financial_Stress": 0.46,
+      "Family_Income": -0.566,
+      "Dropout": 0.125
+    },
+    "Financial_Stress": {
+      "Sem_GPA": -0.295,
+      "Attendance": -0.107,
+      "LMS_Logins": -0.097,
+      "Failed_Courses": 0.074,
+      "Advising_Visits": 0.115,
+      "Course_Load": -0.017,
+      "Work_Hours": 0.46,
+      "Financial_Stress": 1.0,
+      "Family_Income": -0.515,
+      "Dropout": 0.183
+    },
+    "Family_Income": {
+      "Sem_GPA": 0.216,
+      "Attendance": 0.159,
+      "LMS_Logins": 0.073,
+      "Failed_Courses": -0.05,
+      "Advising_Visits": -0.092,
+      "Course_Load": 0.023,
+      "Work_Hours": -0.566,
+      "Financial_Stress": -0.515,
+      "Family_Income": 1.0,
+      "Dropout": -0.116
+    },
+    "Dropout": {
+      "Sem_GPA": -0.224,
+      "Attendance": -0.1,
+      "LMS_Logins": -0.083,
+      "Failed_Courses": 0.189,
+      "Advising_Visits": 0.067,
+      "Course_Load": 0.082,
+      "Work_Hours": 0.125,
+      "Financial_Stress": 0.183,
+      "Family_Income": -0.116,
+      "Dropout": 1.0
+    }
+  }
+}
